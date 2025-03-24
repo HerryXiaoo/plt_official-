@@ -1,0 +1,660 @@
+*{
+    margin: 0; /* 添加这行，以去除外边距 */
+    padding: 0; /* 添加这行，以去除内边距 */
+    
+}
+ html {
+    zoom: 80%;
+  }
+::-webkit-scrollbar {
+    display: none;
+}
+/* 轮播图css */
+.hrader{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+过渡
+.header2 {
+    /* 设置背景颜色为透明白色 */
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 10px;
+    width: 100%;
+    /* 添加内边距和外边距 */
+    padding: 15px;
+    margin: 10px;
+  
+    /* 添加过渡效果 */
+    transition: all 0.3s ease;
+  }
+.playground{
+    height: 200vh;
+    width: 100%;
+    background: #000;
+}
+.animation-container{
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    /* background-image:url(./img/bacc.png); */
+    background-size: contain;
+    /* flex-direction: column; */
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    flex-direction: column;
+    position: relative;
+
+}
+/* 那么一堆盒子 */
+.title {
+  margin-top: 50px; /* 调整标题在上方的垂直间距 */
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+.list-continer {
+  background-color: #15171b;
+    display: grid;
+    padding:40px;
+    height: 300px;
+    grid-template-columns: repeat(7, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px; /* 增加上下盒子间距 */
+  }
+  .list-item {
+    /* 添加圆角边框 */
+    border-radius: 15px;
+    /* 设置字体 */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  height: 80px;
+    /* 设置内边距和外边距 */
+  
+    margin: 10px;
+  
+    /* 设置平滑过渡效果 */
+    transition: all 0.3s ease;
+  }
+  
+  .list-item:hover {
+    /* 当鼠标悬停时，改变背景颜色 */
+    background-color: #333;
+    cursor: pointer;
+  
+    /* 改变文字颜色 */
+    color: white;
+  
+    /* 添加阴影效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+    /* 放大盒子 */
+    transform: scale(1.05);
+  }
+  
+  
+  .item-text {
+    font-family: "SimHei", "STHeiti", "Microsoft YaHei", "黑体", sans-serif;
+    display: block; /* 将内联样式更改为块级元素 */
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffffea;
+    line-height: 1.4;
+    margin-top: 90px; /* 控制文字与图标之间的距离 */
+  }
+  .icon-1 {
+    background-image: url("./img/fangdajing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+
+  .icon-2 {
+    background-image: url("./img/icon2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-3 {
+    background-image: url("./img/icon3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-4 {
+    background-image: url("./img/icon4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-5 {
+    background-image: url("./img/icon5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-6 {
+    background-image: url("./img/icon6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+
+  .icon-7 {
+    background-image: url("./img/icon7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-8 {
+    background-image: url("./img/icon8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-9 {
+    background-image: url("./img/icon9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-10 {
+    background-image: url("./img/icon10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-11 {
+    background-image: url("./img/icon11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-12 {
+    background-image: url("./img/icon12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-13 {
+    background-image: url("./img/icon13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  .icon-14 {
+    background-image: url("./img/icon14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;/* 调整图标大小以适应盒子 */
+  }
+  
+  /* 为其他图标添加对应的CSS */
+
+/* 下一个 */
+.title{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./img/bg3.png);
+}
+.name{
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    /* background-image:url(./img/logo1.png); */
+}
+.logoname{
+    width: 530px;
+    height: 300px;
+}
+.nameLogo{
+    width: 149px;
+    height: 149px;
+    border-radius: 6px;
+    background-image: url(./img/icon.png);
+    background-size: contain;
+    margin: 30px;
+}
+/* 最下面 */
+.footer{
+background-image: url(./img/footer1.png);
+background-color: #FFF;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app_dom {
+	background-color: rgb(255, 255, 255);
+    opacity:0.7; 
+	border-radius: 15px;
+	margin-left: 100px;
+	height: 200px;
+	width: 800px;
+	/* display: flex; */
+	border: #d0d0d0 1px solid;
+	padding: 15px;
+}
+
+
+
+.app_name {
+    font-size: 2em; /* 根据需要修改字号 */
+    font-weight: bold; /* 加粗 */
+    text-align: center; /* 居中对齐 */
+    color:#000; /* 白色字体 */
+}
+
+
+
+.btn_sm {
+    width: 200px;
+    height: 50px;
+    text-align: center; /* 居中对齐 */
+    margin-top: 20px;
+    margin-left: 300px;
+      font-size: 1.2em; 
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    position: relative; /* 添加这行以便正确定位弹出的照片 */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+  
+  .popup_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .popup_image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+/* banner样式 */
+/* 1. 样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+
+.slide {
+  position: relative;
+  margin: auto;
+  max-width: 100%;
+  height: 880px;
+  text-align: center;
+  font-family: Arial;
+  color: #FFF;
+  overflow: hidden;
+}
+
+.slide ul {
+  margin: 0;
+  padding: 0;
+  width: 9999px;
+  transition: all 0.5s;
+}
+
+/*//自动播放*/
+.slide .slide-auto {
+  animation: marginLeft 10.5s infinite;
+}
+
+.slide li {
+  float: left;
+  max-width: 100%;
+  width: 2000px;
+  height: 100%;
+  list-style: none;
+  line-height: 580px;
+  font-size: 36px;
+}
+
+.imgs {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.slide li:nth-child(1) {
+  background: #9fa8ef;
+}
+
+.slide li:nth-child(2) {
+  background: #ef9fb1;
+}
+
+.slide li:nth-child(3) {
+  background: #9fefc3;
+}
+@keyframes marginLeft {
+	0% {
+		margin-left: 0;
+	}
+
+	28.5% {
+		margin-left: 0;
+	}
+
+	33.3% {
+		margin-left: -2000px;
+	}
+
+	62% {
+		margin-left: -2000px;
+	}
+
+	66.7% {
+		margin-left: -4000px;
+	}
+
+	95.2% {
+		margin-left: -4000px;
+	}
+
+	100% {
+		margin-left: 0;
+	}
+}
+
+
+/* 最上面 */
+
+/* 顶部 */
+.top {
+  background-color: #ffffff;
+  height: 40XP;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1; /* 确保在最上层 */
+}
+.onright{
+  margin-right: 40px;
+}
+.logo img {
+	margin-top: 3px;
+	height: 50px;
+	width: 250px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+.logo_text {
+	margin-left: -350px;
+	margin-top: 20px;
+	font-size: larger;
+}
+
+.header {
+	background-color: #ffffff;
+}
+
+.zhuce {
+	margin-top: 10px;
+	margin-right: 50px;
+	height: 40px;
+	width: 100px;
+	float: right;
+	background: #ffffff;
+	border-style: none;
+	border-radius: 5px;
+	float: left;
+	border: #d0d0d0 1px solid;
+	/* margin-top: 10px; */
+}
+
+.xiazai {
+	color: #ffffff;
+	margin-left: -30px;
+	margin-top: 10px;
+	height: 40px;
+	width: 100px;
+	float: right;
+	background: #66bd93;
+	border-style: none;
+	/* 	border: #d0d0d0 1px solid; */
+	border-radius: 5px;
+}
+
+/* 粒子 */
+/* html,
+body {
+    height: 100%;
+} */
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+canvas {
+    display: block;
+}
+.waves {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: -1300px; /* 向上移动200像素 */
+}
+/*最最下面，下载 */
+.header3 {
+  text-align: center;
+  margin: 0 30px 48px 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #666;
+}
+
+nav {
+  margin-top: 36px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+  margin-right: 20px;
+}
+
+.download-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.download-box {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 400px;
+  height: 230px;
+  background-color: #FFF;
+  border-radius: 12px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.download-box img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.download-box .download-text {
+  display: none;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.download-box:hover .download-text {
+  display: block;
+}
+
+.download-box.wechat .qr-code {
+  display: none;
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.download-box.wechat:hover .qr-code {
+  display: block;
+}
+
+.download-box:hover {
+  cursor: pointer;
+}
+.qr-code-box {
+  opacity: 0;
+  height: 200px;
+  visibility: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.download-box:hover .qr-code-box {
+  opacity: 1;
+  visibility: visible;
+}
+.download-box.android {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 230px;
+  position: relative; /* 增加定位属性 */
+}
+
+.download-box.android img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.download-box.android .qr-code-box {
+  position: absolute;
+  bottom: 60px; /* 将其 bottom 属性的值设为图片高度的负值 */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+height: 200px;
+width: 400px;
+  /*将内部居中*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* 定义更合理的尺寸 */
+  height: 75px;
+  width: 180px;
+
+  /* 其他的样式属性 */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.download-box.android:hover .qr-code-box {
+  opacity: 1;
+  visibility: visible;
+}
+
+.download-box.android img.qr-code {
+  position: absolute;
+  width: 400px; /* 和图片相同宽度 */
+  opacity: 0;
+  height: 200px;
+  transition: opacity .5s;
+  box-shadow: none; /* 添加此行代码即可消除阴影 */
+}
+
+.download-box.android:hover img.qr-code {
+  opacity: 1;
+}
+.download-box.android .image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.download-box.android .download-link {
+  margin-top: 30px;
+  font-size: 16px;
+  flood-color: #acadae;
+}
